@@ -16,7 +16,7 @@ Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer my
 - [ ] Add FAQs
 - [ ] add translations
 - [ ] add e2e (playwright) test suit
-- [ ] Build own Backend on NestJS
+- [ ] Rewrite the backend with NestJS
 - [ ] ...
 
 Feel free to open issues and provide feedback.
