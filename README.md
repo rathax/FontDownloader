@@ -14,7 +14,8 @@ Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer my
 - [ ] Improve Mobile UX
 - [ ] create favicon
 - [ ] Add FAQs
-- [ ] add translations 
+- [ ] add translations
+- [ ] add e2e (playwright) test suit
 - [ ] Build own Backend on NestJS
 - [ ] ...
 
