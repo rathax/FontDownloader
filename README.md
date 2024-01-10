@@ -4,10 +4,10 @@ Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer my
 
 ## Here’s what you can do on [Fontdownloader](https://www.fontdownloader.org/)
 
-- Customize Like a Pro: Pick only the font subsets and variants you actually need.
-- Speed is Key: I’ve built this using Vue and Tailwind for a snappy experience.
-- Boost Your Site’s Health: Self-host those fonts! It’s a game-changer for your Google PageSpeed and Lighthouse scores. Plus, say goodbye to unnecessary external requests.
-- Privacy-Focused: In a world where tracking is everywhere, hosting your fonts means one less way for big companies to monitor your users reduces the surface of potential GDPR legal issues.
+- Customize: Pick only the font subsets and variants you actually need.
+- Speed is Key: I’ve built this using Vue, Vuetify and Tailwind for a snappy experience in material design.
+- Boost Your Site’s Health: Self-host those fonts! It’s a game-changer for your Google PageSpeed and Lighthouse scores by avoiding unnecessary external requests.
+- Privacy-Focused: In a world where tracking is everywhere, hosting your fonts means one less way for big companies to monitor your users and reduces the surface of potential GDPR violations.
 
 ## Roadmap
 
