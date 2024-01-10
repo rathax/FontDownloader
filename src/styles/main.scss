@@ -1,0 +1,130 @@
+
+@forward 'vuetify/settings' with (
+  $color-pack: false,
+  $utilities: (
+    "align-content": false,
+    "align-items": false,
+    "align-self": false,
+    "border-bottom": false,
+    "border-end": false,
+    "border-opacity": false,
+    "border-start": false,
+    "border-style": false,
+    "border-top": false,
+    "border": false,
+    "display": false,
+    "flex-direction": false,
+    "flex-grow": false,
+    "flex-shrink": false,
+    "flex-wrap": false,
+    "flex": false,
+    "float-ltr": false,
+    "float-rtl": false,
+    "float": false,
+    "font-italic": false,
+    "font-weight": false,
+    "justify-content": false,
+    "margin-bottom": false,
+    "margin-end": false,
+    "margin-left": false,
+    "margin-right": false,
+    "margin-start": false,
+    "margin-top": false,
+    "margin-x": false,
+    "margin-y": false,
+    "margin": false,
+    "negative-margin-bottom": false,
+    "negative-margin-end": false,
+    "negative-margin-left": false,
+    "negative-margin-right": false,
+    "negative-margin-start": false,
+    "negative-margin-top": false,
+    "negative-margin-x": false,
+    "negative-margin-y": false,
+    "negative-margin": false,
+    "order": false,
+    "overflow-wrap": false,
+    "overflow-x": false,
+    "overflow-y": false,
+    "overflow": false,
+    "padding-bottom": false,
+    "padding-end": false,
+    "padding-left": false,
+    "padding-right": false,
+    "padding-start": false,
+    "padding-top": false,
+    "padding-x": false,
+    "padding-y": false,
+    "padding": false,
+    "rounded-bottom-end": false,
+    "rounded-bottom-start": false,
+    "rounded-bottom": false,
+    "rounded-end": false,
+    "rounded-start": false,
+    "rounded-top-end": false,
+    "rounded-top-start": false,
+    "rounded-top": false,
+    "rounded": false,
+    "text-align": false,
+    "text-decoration": false,
+    "text-mono": false,
+    "text-opacity": false,
+    "text-overflow": false,
+    "text-transform": false,
+    "white-space": false,
+  ),
+);
+@use 'vuetify';
+
+
+
+/* roboto-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./fonts/roboto-v30-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./fonts/roboto-v30-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('./fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
