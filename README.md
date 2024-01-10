@@ -12,11 +12,22 @@ Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer my
 ## Roadmap
 
 - [ ] Improve Mobile UX
+- [ ] create favicon
 - [ ] Add FAQs
+- [ ] add translations 
 - [ ] Build own Backend on NestJS
 - [ ] ...
 
 Feel free to open issues and provide feedback.
+
+## Attributon
+
+This app was written as a portfolio app with the help of AI tools (mostly texts from ChatGPT 4.0).
+
+Initial app written by [majodev](https://github.com/majodev)
+
+check out the [original google-webfonts-helper repo](https://github.com/majodev/google-webfonts-helper) where you can also find the backend and docker images
+
 
 
 ## Project setup
