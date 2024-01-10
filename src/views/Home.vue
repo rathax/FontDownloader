@@ -32,7 +32,7 @@
 
   <h1 class="text-h5 mt-8 mb-6" >Want to contribute?</h1>
   <p class="my-4">
-    Got ideas to make FontDownloader.org even better? <a href="https://github.com/rathax/FontDownloader">Visit the project on GitHub!</a> Whether it’s suggesting new features, reporting bugs, or contributing to the code, your input is invaluable in shaping this tool.
+    Got ideas to make FontDownloader.org even better? <a class="text-primary" href="https://github.com/rathax/FontDownloader">Visit the project on GitHub!</a> Whether it’s suggesting new features, reporting bugs, or contributing to the code, your input is invaluable in shaping this tool.
   </p>
 
 

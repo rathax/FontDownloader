@@ -30,7 +30,6 @@ Initial app written by [majodev](https://github.com/majodev)
 check out the [original google-webfonts-helper repo](https://github.com/majodev/google-webfonts-helper) where you can also find the backend and docker images
 
 
-
 ## Project setup
 
 ```
