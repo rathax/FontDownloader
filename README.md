@@ -2,7 +2,7 @@
 
 Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer myself, I know the drill – we're always on the lookout for tools that make our lives easier without compromising on quality. It's a straightforward app where you can pick and choose the exact fonts you need for your projects to self-host.
 
-## why use [Fontdownloader](https://www.fontdownloader.org/)
+## Why Use [Fontdownloader](https://www.fontdownloader.org/)
 
 - Customize: Pick only the font subsets and variants you actually need.
 - Speed is Key: I’ve built this using Vue, Vuetify and Tailwind for a snappy experience in material design.
