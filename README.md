@@ -1,6 +1,6 @@
 # [Fontdownloader](https://www.fontdownloader.org/)
 
-Welcome to FontDownloader.org. I'm thrilled you've dropped by. As a developer myself, I know the drill – we're always on the lookout for tools that make our lives easier without compromising on quality. It's a straightforward app where you can pick and choose the exact fonts you need for your projects to self-host.
+Welcome to FontDownloader.org. This service might be useful if you want to host a specific Google font on your own server. It's a straightforward app where you can pick and choose the exact fonts you need for your projects to self-host.
 
 ## Why Use Fontdownloader
 
