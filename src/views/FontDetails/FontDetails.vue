@@ -59,18 +59,21 @@
       old browsers is not relevant, <span class="font-semibold">Legacy Support</span> if old browsers still need to be
       supported and <span class="font-semibold">Historic Support</span> if very old browsers needs to be supported.
     </p>
-    <div class="mt-6">
-      <v-btn-toggle color="primary" group v-model="vairant">
-        <v-btn value="modern">
-          Modern Browsers
-        </v-btn>
-        <v-btn value="legacy">
-          Legacy Support
-        </v-btn>
-        <v-btn value="historic">
-          Historic Support
-        </v-btn>
-      </v-btn-toggle>
+    <div class="mt-6 overflow-hidden overflow-x-auto -mx-10 md:mx-0">
+      <div class="min-w-fit">
+        <v-btn-toggle color="primary" group v-model="vairant">
+          <v-btn value="modern">
+            Modern Browsers
+          </v-btn>
+          <v-btn value="legacy">
+            Legacy Support
+          </v-btn>
+          <v-btn value="historic">
+            Historic Support
+          </v-btn>
+        </v-btn-toggle>
+      </div>
+
     </div>
 
 
@@ -79,17 +82,19 @@
         data-hljs="css"><code v-html="computedCSSHtml" class="language-css whitespace-pre-wrap" data-hljs="css"></code></pre>
     </div>
 
-    <v-text-field color="primary" variant="outlined" :density="'compact'" class="w-full mt-8" v-model="pahtPrefix">
-      <template v-slot:prepend>
-        Customize folder prefix (optional):
-      </template>
-
-    </v-text-field>
+    <div class="flex items-center my-8 flex-col gap-3 md:gap-6 md:flex-row">
+      <div class="whitespace-nowrap">Customize folder prefix (optional):</div>
+      <div class="w-full">
+        <v-text-field color="primary" variant="outlined" hide-details :density="'compact'" 
+        v-model="pahtPrefix"></v-text-field>
+      </div>
+  
+    </div>
     <p class="my-2 text-center">Click <span class="text-primary hover:cursor-pointer" @click="copyText">here</span> to
       copy the generated CSS, then paste it into your own CSS file.
     </p>
 
-    <h2 class="text-h5 mt-12 mb-6">
+    <h2 class="text-h5 mt-12 mb-6"> 
       4. Download the Fonts
     </h2>
 
@@ -106,10 +111,11 @@
       </v-btn>
 
     </div>
-    
+
     <p class="text-caption text-center">Fonts are copyright of their respective authors. <br>
-        See <a href="https://fonts.google.com/attribution" target="_blank" class="text-primary hover:cursor-pointer">Google Fonts Open Source Font Attribution</a> to find out the specific license that this font uses.
-      </p>
+      See <a href="https://fonts.google.com/attribution" target="_blank" class="text-primary hover:cursor-pointer">Google
+        Fonts Open Source Font Attribution</a> to find out the specific license that this font uses.
+    </p>
     <v-snackbar :location="'bottom left'" v-model="copySnackbar">
       Copied to clipboard
     </v-snackbar>
@@ -253,18 +259,18 @@ onBeforeMount(async () => {
 
 watch(() => detailedFont.value?.family, () => {
   useHead({
-    title:  `Font Downloader | Download The ${detailedFont.value?.family} Font`,
+    title: `Font Downloader | Download The ${detailedFont.value?.family} Font`,
     meta: [
       {
         name: 'description',
-        content:  `Download the ${detailedFont.value?.family} font for free with just a few clicks and no ads.`
+        content: `Download the ${detailedFont.value?.family} font for free with just a few clicks and no ads.`
       },
       {
         name: 'keywords',
-        content:  `${detailedFont.value?.family}, download ${detailedFont.value?.family}, download ${detailedFont.value?.family} font, self host  ${detailedFont.value?.family}, font downloder, google fonts api downloader, font helper`
+        content: `${detailedFont.value?.family}, download ${detailedFont.value?.family}, download ${detailedFont.value?.family} font, self host  ${detailedFont.value?.family}, font downloder, google fonts api downloader, font helper`
       },
     ],
-    link: [{ rel: "canonical", href: "https://fontdownloader.org/font/" +  detailedFont.value?.id}],
+    link: [{ rel: "canonical", href: "https://fontdownloader.org/font/" + detailedFont.value?.id }],
     htmlAttrs: { lang: "en" },
   })
 
