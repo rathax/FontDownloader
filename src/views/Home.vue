@@ -11,7 +11,7 @@
     Welcome to FontDownloader
   </h1>
   <p class="my-4">
-    "Hey there! 👋 Welcome to FontDownloader.org. If you're a developer looking for a user-friendly tool for managing web fonts provided by the <a class="text-primary" target="_blank" href="https://developers.google.com/fonts/docs/developer_api">Google Fonts Api</a>, you've landed in the right place. The app is tailored for developers who value efficiency and detail in their projects by only shipping the subsets of fonts that the user actually needs. Subsetting is the practice of creating a “subset” of a font which is a file that contains a limited collection of glyphs. Visit <a class="text-primary" target="_blank" href="https://fonts.google.com">fonts.google.com</a> for more information.
+    "Hey there! 👋 Welcome to FontDownloader.org. If you're a developer looking for a user-friendly tool for managing web fonts provided by the <a class="text-primary" target="_blank" href="https://developers.google.com/fonts/docs/developer_api">Google Fonts Api</a>, you've landed in the right place. This Google Webfonts Helper is tailored for developers who value efficiency and detail in their projects by only shipping the subsets of fonts that the user actually needs. Subsetting is the practice of creating a “subset” of a font which is a file that contains a limited collection of glyphs. Visit <a class="text-primary" target="_blank" href="https://fonts.google.com">fonts.google.com</a> for more information.
   </p>
   <h2 class="text-h5 mt-8 mb-6">
     Why self-hosting fonts?
@@ -27,12 +27,12 @@
   </ul>
   <h2 class="text-h5 mt-8 mb-6" >How to use this Font Downloader?</h2>
   <p class="my-4">
-    This font downloader app is designed to integrate into the development workflow and generates all the necessary CSS needed to implement the chosen font sub sets. <b>Get started by selecting one of the fonts in the navigation bar to the left </b> and download the desired font. Select and configure only the font subsets and variants you need. It's all open-source and totally free – a little gift from one developer to another. Dive in, explore, and let's make the web a faster, more beautiful place together! 
+    This Google Webfonts Helper is designed to integrate into the development workflow and generates all the necessary CSS needed to implement the chosen font sub sets. <b>Get started by selecting one of the fonts in the navigation bar to the left </b> and download the desired font. Select and configure only the font subsets and variants you need. It's all open-source and totally free – a little gift from one developer to another. Dive in, explore, and let's make the web a faster, more beautiful place together! 
   </p>
 
   <h2 class="text-h5 mt-8 mb-6" >Want to contribute?</h2>
   <p class="my-4">
-    Got ideas to make this Font Downloader even better? <a class="text-primary" href="https://github.com/rathax/FontDownloader">Visit the project on GitHub!</a> Whether it’s suggesting new features, reporting bugs, or contributing to the code, your input is invaluable in shaping this tool.
+    Got ideas to make this Google Webfonts Helper even better? <a class="text-primary" href="https://github.com/rathax/FontDownloader">Visit the project on GitHub!</a> Whether it’s suggesting new features, reporting bugs, or contributing to the code, your input is invaluable in shaping this tool.
   </p>
 
 
@@ -51,7 +51,7 @@ useHead({
       },
       {
         name: 'keywords',
-        content:  `web font downloader, fontdownloader, download fonts, webfont helper, font downloder, google fonts api downloader, font helper, font downloader free, font downloader app`
+        content:  `web font downloader, fontdownloader, download fonts, webfont helper, Google Webfonts Helper, font downloder, google fonts api downloader, font helper, font downloader free, font downloader app`
       },
     ],
     link: [{ rel: "canonical", href: "https://www.fontdownloader.org/" }],
