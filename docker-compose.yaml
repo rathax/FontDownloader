@@ -1,0 +1,17 @@
+services:
+  backend:
+    image: ghcr.io/majodev/google-webfonts-helper:v1.6.4
+    restart: unless-stopped
+    environment:
+      - GOOGLE_FONTS_API_KEY=XXX
+    ports:
+      - 3000:8080
+  app:
+    depends_on:
+      - backend
+    image: ghcr.io/rathax/fontdownloader:latest
+    restart: unless-stopped
+    environment:
+      - API_HOST=http://backend:8080
+    ports:
+      - 3001:3001
