@@ -256,7 +256,7 @@ const copyText = () => {
 }
 const filename = computed(() => `${detailedFont.value?.id}-${detailedFont.value?.version}-${detailedFont.value?.storeID}.zip`)
 const modern = ["woff2"]
-const legacy = modern.concat(["tff"])
+const legacy = modern.concat(["ttf"])
 const historic = legacy.concat(["woff", "svg", "eot"])
 const formats = computed(() => vairant.value === "modern" ? modern : vairant.value === "legacy" ? legacy : historic)
 
