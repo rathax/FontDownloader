@@ -23,7 +23,7 @@ export default defineEventHandler(async (event) => {
   })
   for (const doc of response) {
     sitemap.write({
-      url: "https://fontdownloader.org/fonts/" + doc.id,
+      url: "https://fontdownloader.org/font/" + doc.id,
       changefreq: 'monthly'
     })
   }

@@ -37,10 +37,10 @@
 
     <div class="bg-surface1 flex flex-col  py-4 -mx-10 px-10">
 
-      <v-text-field color="primary" label="Sampel Text" variant="underlined" v-model="sampleText" class="w-full my-5">
+      <v-text-field color="primary" label="Sampel Text" variant="underlined" v-model="sampleText" class="w-full my-5" aria-label="Sampel Text">
         <template v-slot:append>
-          <v-text-field v-model="fontSize" hide-details variant="plain" single-line label="Font-Size" density="compact"
-            type="number" suffix="px" style="width: 57px"></v-text-field>
+          <v-text-field v-model="fontSize" hide-details variant="plain" single-line label="Font-Size" aria-label="Font Size" density="compact"
+            type="number" suffix="px" style="width: 57px" ></v-text-field>
         </template>
       </v-text-field>
       <v-checkbox label="check all" hide-details class="min-w-36" density="compact" v-model="checkAll"></v-checkbox>
@@ -89,7 +89,7 @@
       <div class="whitespace-nowrap">Customize folder prefix (optional):</div>
       <div class="w-full">
         <v-text-field color="primary" variant="outlined" hide-details :density="'compact'"
-          v-model="pahtPrefix"></v-text-field>
+          v-model="pahtPrefix" aria-label="Path Prefix"></v-text-field>
       </div>
 
     </div>
@@ -343,7 +343,7 @@ useHead({
 .hljs-comment,
 .markdown .hljs-blockquote,
 .smartquote {
-  color: #888
+  color: #6a6a6a
 }
 
 .asciidoc .hljs-bullet,

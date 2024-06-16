@@ -76,6 +76,13 @@
 );
 @use 'vuetify';
 
+.v-theme--light {
+  --v-theme-primary: 26, 115, 232;
+  --v-theme-secondary: 92, 187, 246;
+  --v-theme-background: 232, 234, 237;
+  --v-medium-emphasis-opacity: 0.65;
+  --v-disabled-opacity: 0.65
+} 
 
 
 /* roboto-100 - latin */
