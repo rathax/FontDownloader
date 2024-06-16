@@ -1,9 +1,9 @@
 <template>
     <v-sheet class="h-full max-w-[960px] mx-auto py-10 px-10 leading-7 font-light">
      <p><i>Last updated: June 8, 2024</i></p>
-     <h2 class="text-h3 mt-8 mb-6">
+     <h1 class="text-h3 mt-8 mb-6">
        Contact
-     </h2>
+     </h1>
      <p class="my-4">
         If you want to reach me, leave me an email at <a href= "mailto: rathaxdev@gmail.com" class="font-bold">rathaxdev@gmail.com</a>
      </p>

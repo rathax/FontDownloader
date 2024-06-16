@@ -15,38 +15,30 @@ useHead({
     {
       rel: 'preload',
       type: 'font/woff2',
-      href: (await import('@/assets/css/fonts/roboto-v30-latin-100.woff2')).default,
-      as: 'font',
-    },
-    {
-      rel: 'preload',
-      type: 'font/woff2',
       href: (await import('@/assets/css/fonts/roboto-v30-latin-300.woff2')).default,
       as: 'font',
+      crossorigin: "anonymous"
     },
     {
       rel: 'preload',
       type: 'font/woff2',
       href: (await import('@/assets/css/fonts/roboto-v30-latin-500.woff2')).default,
       as: 'font',
+      crossorigin: "anonymous"
     },
     {
       rel: 'preload',
       type: 'font/woff2',
       href: (await import('@/assets/css/fonts/roboto-v30-latin-700.woff2')).default,
       as: 'font',
-    },
-    {
-      rel: 'preload',
-      type: 'font/woff2',
-      href: (await import('@/assets/css/fonts/roboto-v30-latin-900.woff2')).default,
-      as: 'font',
+      crossorigin: "anonymous"
     },
     {
       rel: 'preload',
       type: 'font/woff2',
       href: (await import('@/assets/css/fonts/roboto-v30-latin-regular.woff2')).default,
       as: 'font',
+      crossorigin: "anonymous"
     }
   ],
   htmlAttrs: { lang: "en" },

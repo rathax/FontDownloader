@@ -1,9 +1,9 @@
 <template>
     <v-sheet class="h-full max-w-[960px] mx-auto py-10 px-10 leading-7 font-light">
      <p><i>Last updated: June 8, 2024</i></p>
-     <h3 class="text-h3 mt-8 mb-6">
+     <h1 class="text-h1 mt-8 mb-6">
        Privacy Policy
-     </h3>
+     </h1>
      <div>
       <h2 class="text-h4 mt-8 mb-6">
         Introduction

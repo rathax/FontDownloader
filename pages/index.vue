@@ -1,6 +1,9 @@
 <template>
   <v-sheet class="h-full max-w-[960px] mx-auto py-10 px-10 leading-7 font-light">
     <p><i>Last updated: June 8, 2024</i></p>
+    <h1 class="text-h3 mt-8 mb-6">
+       Welcome
+     </h1>
     <p class="my-4">
       <b class="font-bold">FontDownloader</b> is a hassle free tool for managing web fonts provided by the <a
         class="text-primary" target="_blank" rel="nofollow"
@@ -10,9 +13,9 @@
       of a font which is a file that contains a limited collection of glyphs. Visit <a class="text-primary"
         target="_blank" rel="nofollow" href="https://fonts.google.com">fonts.google.com</a> for more information.
     </p>
-    <h3 class="text-h4 mt-8 mb-6">
+    <h2 class="text-h4 mt-8 mb-6">
       Why self-hosting fonts?
-    </h3>
+    </h2>
     <ul class="my-4 list-disc [&>li]:ml-12 [&>li]:my-3 mb-8">
       <li><b class="font-bold">Performance Optimization:</b> Self-hosting fonts can lead to faster loading times for
         websites. When fonts
@@ -36,20 +39,20 @@
         staying GDPR-compliant.
       </li>
     </ul>
-    <h3 class="text-h4 mt-8 mb-6">How to use this Font Downloader?</h3>
+    <h2 class="text-h4 mt-8 mb-6">How to use this Font Downloader?</h2>
     <p class="my-4">
       The Fontdownloader generates all the necessary CSS needed to implement and self-host the chosen font sub sets.
       <b>Get started by selecting one of the fonts in the navigation bar
         to the left </b> and download the desired font. Select and configure only the font subsets and variants you need.
       It's all open-source and free!
     </p>
-    <h3 class="text-h4  mt-8 mb-6">JSON API</h3>
+    <h2 class="text-h4  mt-8 mb-6">JSON API</h2>
     <p class="my-4">
       This API allows you to us google fonts without having to use a Google account. The API is public, feel free to use
       it directly (rate-limits may apply). No authentication is required. For more <a class="text-primary" rel="nofollow"
         href="https://github.com/rathax/FontDownloader?tab=readme-ov-file#json-api">Visit the API Docs on GitHub!</a>
     </p>
-    <h3 class="text-h4 mt-8 mb-6 ">Want to contribute?</h3>
+    <h2 class="text-h4 mt-8 mb-6 ">Want to contribute?</h2>
     <p class="my-4">
       Got ideas to make this Google Webfonts Helper even better? <a class="text-primary" rel="nofollow"
         href="https://github.com/rathax/FontDownloader">Visit the project on GitHub!</a> Whether it’s suggesting new
@@ -63,8 +66,8 @@ useSeoMeta({
   creator: 'ratHax',
   title: `FontDownloader | Web GUI for the Google Fonts API`,
   ogTitle: `FontDownloader | Web GUI for the Google Fonts API`,
-  description: `Easy way to download and self-host fonts with precise subset and variant selection. Download over 1500 Fonts for free with this Font Downloader.`,
-  ogDescription: `Easy way to download and self-host fonts with precise subset and variant selection. Download over 1500 Fonts for free with this Font Downloader.`,
+  description: `Tool to download and self-host fonts with precise subset and variant selection. Download over 1500 Fonts for free with this Font Downloader.`,
+  ogDescription: `Tool to download and self-host fonts with precise subset and variant selection. Download over 1500 Fonts for free with this Font Downloader.`,
   keywords: `web font downloader, fontdownloader, download fonts, webfont helper, Google Webfonts Helper, font downloder, google fonts api downloader, font helper, font downloader free, font downloader app`,
   ogUrl: "https://fontdownloader.org",
   applicationName: () => "FontDownloader",

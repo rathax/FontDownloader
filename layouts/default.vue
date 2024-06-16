@@ -94,6 +94,8 @@ import GutHubIcon from "@/assets/icons/github.svg?component"
 const appStore = useAppStore()
 const router = useRouter()
 
+
+
 const searchInputValue = ref(undefined)
 watchDebounced(
   searchInputValue,

@@ -1,9 +1,9 @@
 <template>
    <v-sheet class="h-full max-w-[960px] mx-auto py-10 px-10 leading-7 font-light">
       <p><i>Last updated: June 8, 2024</i></p>
-      <h3 class="text-h4 mt-8 mb-6">
-         About
-      </h3>
+      <h1 class="text-h4 mt-8 mb-6">
+         About FontDownloader
+      </h1>
       <p class="my-4">
          Hello, my name is ratHax, and I'm a Swiss software engineer with a master’s degree in computer science that loves
          to write web apps like this one in his free time.

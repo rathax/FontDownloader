@@ -10,9 +10,9 @@
       </v-breadcrumbs>
       <div class="text-caption">last modified: {{ detailedFont.lastModified }} ({{ detailedFont.version }})</div>
     </div>
-    <h2 class="text-h4 mb-7">
+    <h1 class="text-h4 mb-7">
       {{ detailedFont.family }} Font <span class="text-subtitle-2">{{ detailedFont.category }}</span>
-    </h2>
+    </h1>
 
 
     <p class="text-base my-4">
@@ -21,9 +21,9 @@
         rel="nofollow" :href="'https://fonts.google.com/specimen/' + detailedFont.family + '/about'">fonts.google.com</a>.
     </p>
 
-    <h3 class="text-h5 mt-12 mb-6">
+    <h2 class="text-h5 mt-12 mb-6">
       1. Select subsets
-    </h3>
+    </h2>
     <p class="my-4">select one or multiple available subsets that will be included in bundle.<br> Available options: {{
       detailedFont.subsets.join(', ') }}. default: {{ detailedFont.defSubset }}</p>
     <div class="text-base my-4">
@@ -31,9 +31,9 @@
         v-model="selectedSubsets" variant="outlined"></v-select>
     </div>
 
-    <h3 class="text-h5 mt-6 mb-6">
+    <h2 class="text-h5 mt-6 mb-6">
       2. Select styles
-    </h3>
+    </h2>
 
     <div class="bg-surface1 flex flex-col  py-4 -mx-10 px-10">
 
@@ -54,9 +54,9 @@
         </div>
       </template>
     </div>
-    <h3 class="text-h5 mt-6 mb-6">
+    <h2 class="text-h5 mt-6 mb-6">
       3. Generate CSS
-    </h3>
+    </h2>
     <p class="text-base my-4 ">
       Select the desired level of browser support. Choose <span class="font-semibold">Modern Browsers</span> if supporting
       old browsers is not relevant, <span class="font-semibold">Legacy Support</span> if old browsers still need to be
@@ -97,9 +97,9 @@
       copy the generated CSS, then paste it into your own CSS file.
     </p>
 
-    <h3 class="text-h5 mt-12 mb-6">
+    <h2 class="text-h5 mt-12 mb-6">
       4. Download the Fonts
-    </h3>
+    </h2>
 
     <p clasS="my-2">Your generated archive for <span class="font-semibold">{{ detailedFont.family }}</span> with subsets <span
         class="text-subtitle-2">[{{ selectedSubsets.join(",") }}]</span> and styles <span class="text-subtitle-2">[{{
