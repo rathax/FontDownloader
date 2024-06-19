@@ -18,8 +18,7 @@
     </h2>
     <ul class="my-4 list-disc [&>li]:ml-12 [&>li]:my-3 mb-8">
       <li><b class="font-bold">Performance Optimization:</b> Self-hosting fonts can lead to faster loading times for
-        websites. When fonts
-        are hosted externally, the browser might have to do additional HTTP requests to fetch these fonts an external domain. Web performance
+        websites. When fonts are hosted externally, the browser might have to do additional HTTP requests to fetch these fonts an external domain. Web performance
         metrics, such as <b>Google's PageSpeed Insights and Lighthouse, penalize sites that make numerous external
           requests, including for fonts</b>. By self-hosting, these requests are reduced, speeding up page load times,
         which is beneficial for SEO and user experience.</li>
@@ -41,7 +40,7 @@
     </ul>
     <h2 class="text-h4 mt-8 mb-6">How to use this Font Downloader?</h2>
     <p class="my-4">
-      The Fontdownloader generates all the necessary CSS needed to implement and self-host the chosen font sub sets.
+      This web app generates all the necessary CSS needed to implement and self-host the chosen font sub sets.
       <b>Get started by searching your desired font on the top nav bar</b> and download the desired font. Select and configure only the font subsets and variants you need.
       It's all open-source and free!
     </p>

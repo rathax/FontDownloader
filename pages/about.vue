@@ -27,6 +27,8 @@ useSeoMeta({
   creator: 'ratHax',
   title: `FontDownloader | About`,
   ogTitle: `FontDownloader | About`,
+  description: `Additional information about FontDownloder.org`,
+  ogDescription: `Additional information about FontDownloder.org`,
   ogUrl: "https://fontdownloader.org/about",
 })
 useHead({

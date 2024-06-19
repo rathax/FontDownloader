@@ -17,6 +17,8 @@ useSeoMeta({
   creator: 'ratHax',
   title: `FontDownloader | Contact`,
   ogTitle: `FontDownloader | Contact`,
+  description: `Information on how to contact the author of FontDownloader.org`,
+  ogDescription: `Information on how to contact the author of FontDownloader.org`,
   ogUrl: "https://fontdownloader.org/contact",
 })
  </script>

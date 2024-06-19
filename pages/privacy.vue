@@ -96,6 +96,8 @@ useSeoMeta({
   creator: 'ratHax',
   title: `FontDownloader | Privacy`,
   ogTitle: `FontDownloader |  Privacy`,
+  description: `The privacy policy of FontDownloader.org`,
+  ogDescription: `The privacy policy of FontDownloader.org`,
   ogUrl: "https://fontdownloader.org/privacy",
 })
  
