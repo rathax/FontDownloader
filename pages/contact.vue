@@ -15,6 +15,7 @@
  <script setup lang="ts">
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title: `FontDownloader | Contact`,
   ogTitle: `FontDownloader | Contact`,
   description: `Information on how to contact the author of FontDownloader.org`,

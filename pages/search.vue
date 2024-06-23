@@ -62,6 +62,7 @@ await loadFontList(fontList.value.length, 10)
 
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title: `FontDownloader | Search Fonts`,
   ogTitle: `FontDownloader | Search Fonts`,
   description: `Search and filter the Google Fonts Api for the right font`,

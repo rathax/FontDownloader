@@ -1,6 +1,6 @@
 <template>
   <v-sheet class="h-full max-w-[960px] mx-auto py-10 px-10 leading-7 font-light">
-    <p><i>Last updated: June 19, 2024</i></p>
+    <p><i>Last updated: June 21, 2024</i></p>
     <h1 class="text-h3 mt-8 mb-6">
        Welcome
      </h1>
@@ -62,6 +62,7 @@
 <script setup lang="ts">
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title: `FontDownloader | Web GUI for the Google Fonts API`,
   ogTitle: `FontDownloader | Web GUI for the Google Fonts API`,
   description: `Tool to download and self-host fonts with precise subset and variant selection. Download over 1500 Fonts for free with this Font Downloader.`,

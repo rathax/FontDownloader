@@ -94,6 +94,7 @@
  <script setup lang="ts">
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title: `FontDownloader | Privacy`,
   ogTitle: `FontDownloader |  Privacy`,
   description: `The privacy policy of FontDownloader.org`,

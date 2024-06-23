@@ -31,7 +31,7 @@
         v-model="selectedSubsets" variant="outlined"></v-select>
     </div>
 
-    <h2 class="text-h5 mt-6 mb-6">
+    <h2 class="text-h5 mt-6 mb-0">
       2. Select styles
     </h2>
 
@@ -274,6 +274,7 @@ onBeforeMount(async () => {
 
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title:  () => `FontDownloader | Download The ${detailedFont.value?.family} Font`,
   ogTitle: () => `FontDownloader | Download The ${detailedFont.value?.family} Font`,
   description: () => `Download and configure the ${detailedFont.value?.family} font for free with just a few clicks.`,

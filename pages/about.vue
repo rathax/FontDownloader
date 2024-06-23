@@ -25,6 +25,7 @@
 <script setup lang="ts">
 useSeoMeta({
   creator: 'ratHax',
+  author: 'ratHax',
   title: `FontDownloader | About`,
   ogTitle: `FontDownloader | About`,
   description: `Additional information about FontDownloder.org`,
