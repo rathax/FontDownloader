@@ -22,4 +22,7 @@ useSeoMeta({
   ogDescription: `Information on how to contact the author of FontDownloader.org`,
   ogUrl: "https://fontdownloader.org/contact",
 })
+useHead({
+   link: [{ rel: "canonical", href: "https://fontdownloader.org/contact"}],
+})
  </script>

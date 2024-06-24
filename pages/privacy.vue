@@ -101,5 +101,7 @@ useSeoMeta({
   ogDescription: `The privacy policy of FontDownloader.org`,
   ogUrl: "https://fontdownloader.org/privacy",
 })
- 
+useHead({
+   link: [{ rel: "canonical", href: "https://fontdownloader.org/privacy"}],
+})
  </script>
