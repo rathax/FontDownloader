@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-20 mt-20">
+  <div class="md:mx-10 lg:mx-20 mx-3 mt-20">
     <span class="font-light">{{ totalFilteredElements }} of {{ totalEments }} families</span>
     <v-infinite-scroll :items="fontList" :onLoad="load" v-if="showInfiteScroll">
       <template v-for="(item, index) in fontList" :key="index">
