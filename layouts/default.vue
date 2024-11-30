@@ -18,7 +18,7 @@
           </v-text-field>
         </div>
         <div class="hidden md:flex w-2/12 justify-center items-center">
-          <a href="https://github.com/rathax/FontDownloader" target="_blank">
+          <a href="https://github.com/rathax/FontDownloader" target="_blank" rel="nofollow">
             <v-btn variant="elevated">
               <template v-slot:prepend>
                 <v-icon>
@@ -39,17 +39,17 @@
         <div>Follow me:
           <ul class="inline ml-5">
             <li class="inline">
-              <a href="https://x.com/godlikeplayer1" target="_blank" class="pl-0 p-2">
+              <a href="https://x.com/godlikeplayer1" rel="nofollow" target="_blank" class="pl-0 p-2">
                 Twitter
               </a>
             </li>
             <li class="inline">
-              <a href="https://www.reddit.com/user/godlikeplayer2" target="_blank" class="pl-0 p-2">
+              <a href="https://www.reddit.com/user/godlikeplayer2" rel="nofollow" target="_blank" class="pl-0 p-2">
                 Reddit
               </a>
             </li>
             <li class="inline">
-              <a href="https://github.com/rathax" target="_blank" class="pl-0 p-2">
+              <a href="https://github.com/rathax" target="_blank" rel="nofollow" class="pl-0 p-2">
                 GitHub
               </a>
             </li>
