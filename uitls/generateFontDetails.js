@@ -1,7 +1,7 @@
 import fs from "fs";
 
 
-const respJson = await fetch("https://fontdownloader.org/api/fonts").then(res => res.json())
+const respJson = await fetch("https://fontdownloader.org/native/api/fonts").then(res => res.json())
 const fontsDetailsArray = []
 for (const [index, element] of respJson.entries()) {
   console.log(`${index + 1}/${respJson.length}`)

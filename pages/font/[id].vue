@@ -265,9 +265,6 @@ const downloadFont = () => {
  appStore.downloadFont(detailedFont.value.id, { subsets: selectedSubsets.value, variants: checkedFontVariants.value, formats: formats.value }, filename.value)
 }
 
-
-
-
 onBeforeMount(async () => {
  loadFonts()
 })
@@ -277,8 +274,8 @@ useSeoMeta({
   author: 'ratHax',
   title:  () => `FontDownloader | Download The ${detailedFont.value?.family} Font`,
   ogTitle: () => `FontDownloader | Download The ${detailedFont.value?.family} Font`,
-  description: () => `Download and configure the ${detailedFont.value?.family} font for free with just a few clicks.`,
-  ogDescription: () => `Download and configure the ${detailedFont.value?.family} font for free with just a few clicks.`,
+  description: () => `Download and customize the ${detailedFont.value?.family} font. Get eot, ttf, svg, woff and woff2 files + CSS snippets!`,
+  ogDescription: () => `Download and customize the ${detailedFont.value?.family} font. Get eot, ttf, svg, woff and woff2 files + CSS snippets!`,
   keywords: () => `${detailedFont.value?.family}, download ${detailedFont.value?.family}, download ${detailedFont.value?.family} font, self host  ${detailedFont.value?.family}, font downloder, google fonts api downloader, font helper`,
   ogUrl: () =>"https://fontdownloader.org/font/" + detailedFont.value?.id ,
   applicationName: () => "FontDownloader",
