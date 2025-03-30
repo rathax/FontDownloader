@@ -32,6 +32,7 @@ export default defineNuxtConfig({
     },
     //...
   ],
+
   vite: {
     vue: {
       template: {
@@ -39,12 +40,14 @@ export default defineNuxtConfig({
       },
     },
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   nuxtIcon: {
     size: "24px", // default <Icon> size applied
     class: "", // default <Icon> class applied
@@ -52,4 +55,6 @@ export default defineNuxtConfig({
       nuxt: "",
     },
   },
+
+  compatibilityDate: "2025-03-30",
 });
